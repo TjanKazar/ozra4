@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">Tekmovanja</h2>
+    <div class="row">
+        {% for objava in response %}
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h4 class="card-title">{{ objava.competition_name }}</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">year : {{ objava.year }}</h5>
+                    <h5 class="card-subtitle mb-2 text-muted">number of participants : {{ objava.results }}</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

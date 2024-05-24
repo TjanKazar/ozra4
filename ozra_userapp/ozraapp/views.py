@@ -60,5 +60,5 @@ def objava_added(request, title, body, author, upvote, downvote):
 
 def translate(request, lang_code):
     translation.activate(lang_code)
-    request.session[translation.LANGUAGE_SESSION_KEY] = lang_code
+    request.session['django_language'] = lang_code
     return redirect(request.META.get('HTTP_REFERER', '/'))

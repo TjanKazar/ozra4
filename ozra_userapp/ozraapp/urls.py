@@ -11,7 +11,6 @@ urlpatterns = [
     path('generate_reports/get_swimmer_results/<str:ironman_name>/<str:ironman_surname>/', views.get_swimmer_results, name='get_swimmer_results'),   
     path('add_objava', views.add_objava, name='add_objava'),
     path('objava_added/<str:title>/<str:body>/<str:author>/<int:upvote>/<int:downvote>/', views.objava_added, name='objava_added'),
-    path('translate/<str:lang_code>/', views.translate, name='translate')
-
+    path('translate/<str:lang_code>/', views.translate, name='translate'),
 
 ] 

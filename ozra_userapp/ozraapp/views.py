@@ -57,8 +57,9 @@ def objava_added(request, title, body, author, upvote, downvote):
     api_url = "http://127.0.0.1:5000/objavapost"
     response = requests.post(api_url, json=data).json()
     return render(request, 'objava_added.html', {'response': response})
+    
+from django.shortcuts import redirect
 
 def translate(request, lang_code):
-    translation.activate(lang_code)
     request.session['django_language'] = lang_code
     return redirect(request.META.get('HTTP_REFERER', '/'))

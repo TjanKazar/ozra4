@@ -50,9 +50,11 @@
                 </li>
                 <li class="nav-item">
                     {% if LANGUAGE_CODE == 'en' %}
-                        <a class="nav-link" href="{% url 'translate' 'sl' %}">{% trans "Translate Site to Slovenian" %}</a>
+                    <a class="nav-link" href="{% url 'translate' 'sl' %}">{% trans "Translate Site to Slovenian" %}</a>
+                    {% elif LANGUAGE_CODE == 'si' %}
+                    <a class="nav-link" href="{% url 'translate' 'en' %}">{% trans "Translate Site to English" %}</a>
                     {% else %}
-                        <a class="nav-link" href="{% url 'translate' 'en' %}">{% trans "Translate Site to English" %}</a>
+                    <a class="nav-link" href="{% url 'translate' 'en' %}">{% trans "Cannot Detect Lang" %}</a>
                     {% endif %}
                 </li>
             </ul>

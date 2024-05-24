@@ -240,8 +240,8 @@ msgid "Go to Home"
 msgstr "Pojdi na domačo stran"
 
 #: .\ozra_userapp\ozraapp\templates\porocila.html:14
-msgid "Ironman's Name:"
-msgstr "Ime Ironmana:"
+msgid "Ironman's Name: "
+msgstr "Ime Ironmana: "
 
 #: .\ozra_userapp\ozraapp\templates\porocila.html:15
 msgid "Name"
@@ -257,15 +257,15 @@ msgstr "Priimek"
 
 #: .\ozra_userapp\ozraapp\templates\porocila.html:19
 msgid "Runners Report"
-msgstr "Poročilo Tekača"
+msgstr "Poročilo Tekača "
 
 #: .\ozra_userapp\ozraapp\templates\porocila.html:20
 msgid "Swimmers Report"
-msgstr "Poročilo Plavalca"
+msgstr "Poročilo Plavalca "
 
 #: .\ozra_userapp\ozraapp\templates\porocila.html:21
 msgid "Bikers Report"
-msgstr "Poročilo kolesarja"
+msgstr "Poročilo kolesarja "
 
 #: .\ozra_userapp\ozraapp\templates\runners.html:8
 msgid "Best Run Time"
@@ -274,7 +274,7 @@ msgstr "Najbojši pretečen čas"
 #: .\ozra_userapp\ozraapp\templates\swimmers.html:4
 #: .\ozra_userapp\ozraapp\templates\swimmers.html:7
 msgid "Swimmer Report: "
-msgstr "Poročilo Plavalca"
+msgstr "Poročilo Plavalca "
 
 #: .\ozra_userapp\ozraapp\templates\swimmers.html:8
 msgid "Best Swim Time: "
@@ -285,7 +285,7 @@ msgid "year"
 msgstr "leto"
 
 #: .\ozra_userapp\ozraapp\templates\tekmovanja.html:16
-msgid "number of participants"
+msgid "number of participants "
 msgstr "število udeležencev"
 
 #: .\ozra_userapp\ozraapp\templates\translate.html:10

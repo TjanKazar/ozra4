@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}
+Language Switcher
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">{% trans "Change Language" %}</h2>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <p>{% trans "Select your preferred language:" %}</p>
+            <a href="{% url 'set_language' 'en' %}" class="btn btn-primary">{% trans "English" %}</a>
+            <a href="{% url 'set_language' 'sl' %}" class="btn btn-secondary">{% trans "Slovenian" %}</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,31 +1,33 @@
 {% extends "base.html" %}
 
-{% block title %}Runner Report: {{ response.name }}{% endblock %}
+{% load i18n %}
+
+{% block title %}{% trans "Biker Report" %}: {{ response.name }}{% endblock %}
 
 {% block content %}
-<h1>Runner Report: {{ response.name }}</h1>
-<h2>Best Bike Time: {{ response.bike }}</h2>
+<h1>{% trans "Runner Report" %}: {{ response.name }}</h1>
+<h2>{% trans "Best Bike Time" %}: {{ response.bike }}</h2>
 <table>
-    <tr><th>Field</th><th>Value</th></tr>
-    <tr><td>ID</td><td>{{ response.id }}</td></tr>
-    <tr><td>Swim</td><td>{{ response.swim }}</td></tr>
-    <tr><td>Division</td><td>{{ response.division }}</td></tr>
-    <tr><td>Run</td><td>{{ response.run }}</td></tr>
-    <tr><td>Profession</td><td>{{ response.profession }}</td></tr>
-    <tr><td>Country</td><td>{{ response.country }}</td></tr>
-    <tr><td>Age</td><td>{{ response.age }}</td></tr>
-    <tr><td>Run Distance</td><td>{{ response.run_distance }}</td></tr>
-    <tr><td>Bib</td><td>{{ response.bib }}</td></tr>
-    <tr><td>State</td><td>{{ response.state }}</td></tr>
-    <tr><td>Bike</td><td>{{ response.bike }}</td></tr>
-    <tr><td>Gender Rank</td><td>{{ response.gender_rank }}</td></tr>
-    <tr><td>Overall</td><td>{{ response.overall }}</td></tr>
-    <tr><td>Swim Distance</td><td>{{ response.swim_distance }}</td></tr>
-    <tr><td>Overall Rank</td><td>{{ response.overall_rank }}</td></tr>
-    <tr><td>Points</td><td>{{ response.points }}</td></tr>
-    <tr><td>T2</td><td>{{ response.t2 }}</td></tr>
-    <tr><td>Bike Distance</td><td>{{ response.bike_distance }}</td></tr>
-    <tr><td>T1</td><td>{{ response.t1 }}</td></tr>
-    <tr><td>Division Rank</td><td>{{ response.div_rank }}</td></tr>
+    <tr><th>{% trans "Field" %}</th><th>{% trans "Value" %}</th></tr>
+    <tr><td>{% trans "ID" %}</td><td>{{ response.id }}</td></tr>
+    <tr><td>{% trans "Swim" %}</td><td>{{ response.swim }}</td></tr>
+    <tr><td>{% trans "Division" %}</td><td>{{ response.division }}</td></tr>
+    <tr><td>{% trans "Run" %}</td><td>{{ response.run }}</td></tr>
+    <tr><td>{% trans "Profession" %}</td><td>{{ response.profession }}</td></tr>
+    <tr><td>{% trans "Country" %}</td><td>{{ response.country }}</td></tr>
+    <tr><td>{% trans "Age" %}</td><td>{{ response.age }}</td></tr>
+    <tr><td>{% trans "Run Distance" %}</td><td>{{ response.run_distance }}</td></tr>
+    <tr><td>{% trans "Bib" %}</td><td>{{ response.bib }}</td></tr>
+    <tr><td>{% trans "State" %}</td><td>{{ response.state }}</td></tr>
+    <tr><td>{% trans "Bike" %}</td><td>{{ response.bike }}</td></tr>
+    <tr><td>{% trans "Gender Rank" %}</td><td>{{ response.gender_rank }}</td></tr>
+    <tr><td>{% trans "Overall" %}</td><td>{{ response.overall }}</td></tr>
+    <tr><td>{% trans "Swim Distance" %}</td><td>{{ response.swim_distance }}</td></tr>
+    <tr><td>{% trans "Overall Rank" %}</td><td>{{ response.overall_rank }}</td></tr>
+    <tr><td>{% trans "Points" %}</td><td>{{ response.points }}</td></tr>
+    <tr><td>{% trans "T2" %}</td><td>{{ response.t2 }}</td></tr>
+    <tr><td>{% trans "Bike Distance" %}</td><td>{{ response.bike_distance }}</td></tr>
+    <tr><td>{% trans "T1" %}</td><td>{{ response.t1 }}</td></tr>
+    <tr><td>{% trans "Division Rank" %}</td><td>{{ response.div_rank }}</td></tr>
 </table>
 {% endblock %}

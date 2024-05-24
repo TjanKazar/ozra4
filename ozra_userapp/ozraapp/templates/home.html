@@ -1,25 +1,32 @@
 {% extends "base.html" %}
 
+{% load i18n %}
+
+
 {% block title %}
-Home Page
+{% trans "Home Page" %}
 {% endblock %}
 
 {% block content %}
 <div class="container mt-5">
-    <h2 class="mb-4">Objave</h2>
+    <h2 class="mb-4">{% trans "Posts" %}</h2>
+    <div class="row">
+        <a href="{% url 'add_objava' %}" class="btn btn-primary">{% trans "Add Post" %}</a>
+    </div>
+    <br>
     <div class="row">
         {% for objava in response %}
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
                 <div class="card-body">
                     <h4 class="card-title">{{ objava.name }}</h4>
-                    <h5 class="card-subtitle mb-2 text-muted">By {{ objava.birth_date }}</h5>
+                    <h5 class="card-subtitle mb-2 text-muted">{% trans "By" %} {{ objava.birth_date }}</h5>
                     <p class="card-text">{{ objava.surname }}</p>
                 </div>
                 <div class="card-footer">
                     <div class="d-flex justify-content-between">
-                        <span class="text-success">Upvotes: {{ objava.accessible }}</span>
-                        <span class="text-danger">Downvotes: {{ objava.password }}</span>
+                        <span class="text-success">{% trans "Upvotes" %}: {{ objava.accessible }}</span>
+                        <span class="text-danger">{% trans "Downvotes" %}: {{ objava.password }}</span>
                     </div>
                 </div>
             </div>

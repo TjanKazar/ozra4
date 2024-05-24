@@ -1,22 +1,24 @@
 {% extends "base.html" %}
-{% block title %}Porocila{% endblock %}
+{% load i18n %}
+
+{% block title %}{% trans "Reports" %}{% endblock %}
 
 {% block content %}
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="mt-5">Porocila</h1>
+                <h1 class="mt-5">{% trans "Reports" %}</h1>
                 <form method="post" action="{% url 'generate_reports' %}">
                     {% csrf_token %}
                     <div class="form-group">
-                        <label for="ironman_name">Ironman's Name:</label>
-                        <input type="text" class="form-control" id="ironman_name" name="ironman_name" value="{{ name }}">
-                        <label for="ironman_surname">Ironman's surname:</label>
-                        <input type="text" class="form-control" id="ironman_surname" name="ironman_surname" value="{{ surname }}">
+                        <label for="ironman_name">{% trans "Ironman's Name:" %}</label>
+                        <input type="text" class="form-control" id="ironman_name" name="ironman_name" placeholder="{% trans "Name" %}">
+                        <label for="ironman_surname">{% trans "Ironman's surname:" %}</label>
+                        <input type="text" class="form-control" id="ironman_surname" name="ironman_surname" placeholder="{% trans "Surname" %}">
                     </div>
-                    <button type="submit" class="btn btn-primary" name="report_type" value="runners">Runners Report</button>
-                    <button type="submit" class="btn btn-primary" name="report_type" value="swimmers">Swimmers Report</button>
-                    <button type="submit" class="btn btn-primary" name="report_type" value="bikers">Bikers Report</button>
+                    <button type="submit" class="btn btn-primary" name="report_type" value="get_runner_results">{% trans "Runners Report" %}</button>
+                    <button type="submit" class="btn btn-primary" name="report_type" value="get_swimmer_results">{% trans "Swimmers Report" %}</button>
+                    <button type="submit" class="btn btn-primary" name="report_type" value="get_biker_results">{% trans "Bikers Report" %}</button>
                 </form>
             </div>
         </div>

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="mb-4">{% trans "Post added successfully!" %}</h2>
+    <a href="http://127.0.0.1:8000" class="btn btn-primary">{% trans "Go to Home" %}</a>
+</div>
+{% endblock %}

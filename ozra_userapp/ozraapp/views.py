@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse, redirect
 import requests
-from django.utils import translation
+from django.utils.translation import gettext_lazy as _
 
 def home(request):
     response=requests.get('http://127.0.0.1:5000/Objave').json()

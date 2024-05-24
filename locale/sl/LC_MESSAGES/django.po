@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 11:51+0200\n"
+"POT-Creation-Date: 2024-05-24 14:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,282 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3);\n"
+
 #: .\ozra_userapp\ozra4\settings.py:122
+#: .\ozra_userapp\ozraapp\templates\translate.html:14
 msgid "English"
-msgstr ""
+msgstr "Angleščina"
 
 #: .\ozra_userapp\ozra4\settings.py:123
+#: .\ozra_userapp\ozraapp\templates\translate.html:15
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovenščina"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:9
+msgid "My Fancy Jinja Page"
+msgstr "Moja Jinja stran"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:36
+msgid "Ironman App"
+msgstr "Ironman Aplikacija"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:43
+msgid "Home"
+msgstr "Domov"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:46
+#: .\ozra_userapp\ozraapp\templates\tekmovanja.html:8
+msgid "Competitions"
+msgstr "Tekmovanja"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:49
+#: .\ozra_userapp\ozraapp\templates\porocila.html:4
+#: .\ozra_userapp\ozraapp\templates\porocila.html:10
+msgid "Reports"
+msgstr "Poročila"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:63
+msgid "Welcome to My Fancy Jinja Page"
+msgstr "Moja Stran"
+
+#: .\ozra_userapp\ozraapp\templates\base.html:71
+msgid "© 2024 Ironman App. All rights reserved."
+msgstr "© 2024 Ironman Aplikacija. Vse pravice zadržane."
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:5
+msgid "Biker Report"
+msgstr "Poročilo kolesarja"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:8
+#: .\ozra_userapp\ozraapp\templates\runners.html:4
+#: .\ozra_userapp\ozraapp\templates\runners.html:7
+msgid "Runner Report"
+msgstr "Poročilo Tekača"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:9
+msgid "Best Bike Time"
+msgstr "Najbojši čas kolesarjenja"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:11
+#: .\ozra_userapp\ozraapp\templates\runners.html:10
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:10
+msgid "Field"
+msgstr "Polje"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:11
+#: .\ozra_userapp\ozraapp\templates\runners.html:10
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:10
+msgid "Value"
+msgstr "Vrednost"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:12
+#: .\ozra_userapp\ozraapp\templates\runners.html:11
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:11
+msgid "ID"
+msgstr "ID"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:13
+#: .\ozra_userapp\ozraapp\templates\runners.html:12
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:12
+msgid "Swim"
+msgstr "Plavanje"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:14
+#: .\ozra_userapp\ozraapp\templates\runners.html:13
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:13
+msgid "Division"
+msgstr "Divizija"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:15
+#: .\ozra_userapp\ozraapp\templates\runners.html:14
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:14
+msgid "Run"
+msgstr "Tek"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:16
+#: .\ozra_userapp\ozraapp\templates\runners.html:15
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:15
+msgid "Profession"
+msgstr "Zaposlitev"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:17
+#: .\ozra_userapp\ozraapp\templates\runners.html:16
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:16
+msgid "Country"
+msgstr "Država"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:18
+#: .\ozra_userapp\ozraapp\templates\runners.html:17
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:17
+msgid "Age"
+msgstr "Starost"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:19
+#: .\ozra_userapp\ozraapp\templates\runners.html:18
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:18
+msgid "Run Distance"
+msgstr "Pretečena razdalja"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:20
+#: .\ozra_userapp\ozraapp\templates\runners.html:19
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:19
+msgid "Bib"
+msgstr "Bib"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:21
+#: .\ozra_userapp\ozraapp\templates\runners.html:20
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:20
+msgid "State"
+msgstr "Zvezna država"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:22
+#: .\ozra_userapp\ozraapp\templates\runners.html:21
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:21
+msgid "Bike"
+msgstr "Kolesarjenje"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:23
+#: .\ozra_userapp\ozraapp\templates\runners.html:22
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:22
+msgid "Gender Rank"
+msgstr "Spol"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:24
+#: .\ozra_userapp\ozraapp\templates\runners.html:23
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:23
+msgid "Overall"
+msgstr "Skupaj"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:25
+#: .\ozra_userapp\ozraapp\templates\runners.html:24
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:24
+msgid "Swim Distance"
+msgstr "Preplavana razdalja"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:26
+#: .\ozra_userapp\ozraapp\templates\runners.html:25
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:25
+msgid "Overall Rank"
+msgstr "Ocena Skupaj"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:27
+#: .\ozra_userapp\ozraapp\templates\runners.html:26
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:26
+msgid "Points"
+msgstr "Točke"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:28
+#: .\ozra_userapp\ozraapp\templates\runners.html:27
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:27
+msgid "T2"
+msgstr "T2"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:29
+#: .\ozra_userapp\ozraapp\templates\runners.html:28
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:28
+msgid "Bike Distance"
+msgstr "Prekolesarjena razdalja"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:30
+#: .\ozra_userapp\ozraapp\templates\runners.html:29
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:29
+msgid "T1"
+msgstr "T1"
+
+#: .\ozra_userapp\ozraapp\templates\bikers.html:31
+#: .\ozra_userapp\ozraapp\templates\runners.html:30
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:30
+msgid "Division Rank"
+msgstr "Divizija"
+
+#: .\ozra_userapp\ozraapp\templates\home.html:7
+#: .\ozra_userapp\ozraapp\templates\tekmovanja.html:4
+msgid "Home Page"
+msgstr "Domača stran"
+
+#: .\ozra_userapp\ozraapp\templates\home.html:12
+msgid "Posts"
+msgstr "Objave"
+
+#: .\ozra_userapp\ozraapp\templates\home.html:14
+msgid "Add Post"
+msgstr "Dodaj Objavo"
+
+#: .\ozra_userapp\ozraapp\templates\home.html:23
+msgid "By"
+msgstr "Od"
+
+#: .\ozra_userapp\ozraapp\templates\home.html:28
+msgid "Upvotes"
+msgstr "Všečki"
+
+#: .\ozra_userapp\ozraapp\templates\home.html:29
+msgid "Downvotes"
+msgstr "Downvotes"
+
+#: .\ozra_userapp\ozraapp\templates\objava_added.html:6
+msgid "Post added successfully!"
+msgstr "Objava dodana !"
+
+#: .\ozra_userapp\ozraapp\templates\objava_added.html:7
+msgid "Go to Home"
+msgstr "Pojdi na domačo stran"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:14
+msgid "Ironman's Name:"
+msgstr "Ime Ironmana:"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:15
+msgid "Name"
+msgstr "Ime"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:16
+msgid "Ironman's surname:"
+msgstr "Priimek Ironmana"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:17
+msgid "Surname"
+msgstr "Priimek"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:19
+msgid "Runners Report"
+msgstr "Poročilo Tekača"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:20
+msgid "Swimmers Report"
+msgstr "Poročilo Plavalca"
+
+#: .\ozra_userapp\ozraapp\templates\porocila.html:21
+msgid "Bikers Report"
+msgstr "Poročilo kolesarja"
+
+#: .\ozra_userapp\ozraapp\templates\runners.html:8
+msgid "Best Run Time"
+msgstr "Najbojši pretečen čas"
+
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:4
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:7
+msgid "Swimmer Report: "
+msgstr "Poročilo Plavalca"
+
+#: .\ozra_userapp\ozraapp\templates\swimmers.html:8
+msgid "Best Swim Time: "
+msgstr "Najbojši preplavan čas"
+
+#: .\ozra_userapp\ozraapp\templates\tekmovanja.html:15
+msgid "year"
+msgstr "leto"
+
+#: .\ozra_userapp\ozraapp\templates\tekmovanja.html:16
+msgid "number of participants"
+msgstr "število udeležencev"
+
+#: .\ozra_userapp\ozraapp\templates\translate.html:10
+msgid "Change Language"
+msgstr "Spremeni jezi"
+
+#: .\ozra_userapp\ozraapp\templates\translate.html:13
+msgid "Select your preferred language:"
+msgstr "Izberi jezik:"

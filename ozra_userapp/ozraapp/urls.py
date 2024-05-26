@@ -12,5 +12,8 @@ urlpatterns =[
     path('add_objava', views.add_objava, name='add_objava'),
     path('objava_added/<str:title>/<str:body>/<str:author>/<int:upvote>/<int:downvote>/', views.objava_added, name='objava_added'),
     path('translate/<str:lang_code>/', views.translate, name='translate'),
+    path('login', views.login_view, name='login_view'),
+    path('logout', views.logout_view, name='logout'),
+    path('auth', views.auth, name='auth'),
 
 ] 

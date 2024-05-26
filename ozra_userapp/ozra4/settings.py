@@ -53,6 +53,7 @@ MIDDLEWARE = [
     'django.middleware.locale.LocaleMiddleware',
 ]
 
+LOGIN_URL = "/login"
 
 ROOT_URLCONF = 'ozra4.urls'
 
@@ -131,6 +132,8 @@ LOCALE_PATHS = [
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
